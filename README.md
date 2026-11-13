@@ -1,8 +1,18 @@
-# Cordova Music Controls Plugin
+<img src="./.github/banner.svg" alt="cordova-music-controls-plugin-eo" width="100%">
+
+<p align="center">The EO's fork of the Cordova Music Controls plugin.</p>
 
 <img src='https://imgur.com/fh3ACOq.png' width='564' height='342'>
 
 Music controls for Cordova applications. Display a 'media' notification with play/pause, previous, next buttons, allowing the user to control the play. Handle also headset event (plug, unplug, headset button).
+
+This fork carries the plugin id `cordova-plugin-music-controls-eo` and updates its iOS remote control handlers for iOS 13.
+
+## What it does
+
+- **A media notification.** Android shows the track, artist and cover with play/pause, previous, next and close buttons.
+- **Lock screen and control center.** iOS shows the same controls, with optional skip buttons and scrubbing.
+- **Events for your player.** Your app subscribes to button presses, and on Android to headset plug, unplug and button events.
 
 ## Supported platforms
 - Android (4.1+)
@@ -156,8 +166,4 @@ MusicControls.updateElapsed({
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Working on this repo? [AGENTS.md](./AGENTS.md) has the setup, conventions and checks.
